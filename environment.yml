@@ -1,0 +1,8 @@
+name: omnic
+channels:
+  - defaults
+dependencies:
+  - pip:
+      - pandas
+      - spectrochempy
+prefix: /Users/garrettflynn/miniconda3/envs/omnic
