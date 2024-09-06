@@ -29,7 +29,7 @@ Make sure you save this **collection** of `.spa` files in a directory indicating
 The `omnic_to_csv.py` script takes a directory of OMNIC `.spa` collections and converts them to CSV files corresponding to the collection names.
 
 ```bash
-python omnic_to_csv.py <input_file> <output_file>
+python omnic_to_csv.py <input_dir> <output_dir>
 ```
 
 ## Example
@@ -51,6 +51,7 @@ data
 ```
 
 ### CSV Files
+In the CSV file, the first column is the UNIX timestamp. Subsequent column headers indicate the wavenumber. Each row corresponds to the temperature at the given timestamp and wavenumber.
 ```
 csv_files
     series1.csv
