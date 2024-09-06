@@ -2,8 +2,9 @@ import os
 import sys
 import spectrochempy as scp
 import pandas as pd
+from os import path
 
-DATA_DIR = 'data'
+DATA_DIR = path.join('data', 'ftir')
 OUT_DIR = 'csv_files'
 
 def convert_omnic_to_csv(in_file, out_file):
